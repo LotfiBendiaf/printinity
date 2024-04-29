@@ -34,7 +34,7 @@ function formatPrice(price, options) {
 }
 exports.formatPrice = formatPrice;
 function constructMetadata(_a) {
-    var _b = _a === void 0 ? {} : _a, _c = _b.title, title = _c === void 0 ? 'PRINTINITY - print on demand goods' : _c, _d = _b.description, description = _d === void 0 ? 'Bienvenue a PRINTINITY. chaque produit sur notre plateforme est vérifié par notre équipe pour assurer la meilleur qualité' : _d, _e = _b.image, image = _e === void 0 ? '/cosmimarket-image.png' : _e, _f = _b.icons, icons = _f === void 0 ? '/favicon.ico' : _f, _g = _b.noIndex, noIndex = _g === void 0 ? false : _g;
+    var _b = _a === void 0 ? {} : _a, _c = _b.title, title = _c === void 0 ? 'PRINTINITY - print on demand goods' : _c, _d = _b.description, description = _d === void 0 ? 'Bienvenue a PRINTINITY. chaque produit sur notre plateforme est vérifié par notre équipe pour assurer la meilleur qualité' : _d, _e = _b.image, image = _e === void 0 ? '/printinity-image.png' : _e, _f = _b.icons, icons = _f === void 0 ? '/favicon.ico' : _f, _g = _b.noIndex, noIndex = _g === void 0 ? false : _g;
     return __assign({ title: title, description: description, openGraph: {
             title: title,
             description: description,
@@ -49,7 +49,7 @@ function constructMetadata(_a) {
             description: description,
             images: [image],
             creator: '@lotfiben95',
-        }, icons: icons, metadataBase: new URL('https://cosmimarket-production.up.railway.app') }, (noIndex && {
+        }, icons: icons, metadataBase: new URL('https://printinity.up.railway.app') }, (noIndex && {
         robots: {
             index: false,
             follow: false,

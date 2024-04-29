@@ -9,7 +9,7 @@ export const Icons = ({sizes}: UserProps) => {
   return (
     <>
     <Image 
-        src='/printinity-Icon.png'
+        src='/Printinity-Icon.png'
         alt='Printinity Main Icon'
         sizes={sizes}
         width={50}
