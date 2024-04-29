@@ -1,6 +1,5 @@
 'use client'
 
-import { Icons } from '@/components/Icons'
 import {
   Button,
   buttonVariants,
@@ -21,6 +20,7 @@ import { trpc } from '@/trpc/client'
 import { toast } from 'sonner'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { useCart } from '@/hooks/use-cart'
+import Icon from '@/components/Icon'
 
 const Page = () => {
     const searchParams = useSearchParams()
@@ -87,7 +87,7 @@ const Page = () => {
       <div className='container relative flex py-10 flex-col items-center justify-center lg:px-0'>
         <div className='mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]'>
           <div className='flex flex-col items-center space-y-2 text-center'>
-            <Icons sizes='50' />
+            <Icon />
             <h1 className='text-2xl font-semibold tracking-tight'>
               Se Connecter à votre compte {isSeller ? (
                 "Vendeur"
