@@ -29,7 +29,7 @@ export function formatPrice(
 export function constructMetadata({
   title = 'PRINTINITY - print on demand goods',
   description = 'Bienvenue a PRINTINITY. chaque produit sur notre plateforme est vérifié par notre équipe pour assurer la meilleur qualité',
-  image = '/cosmimarket-image.png',
+  image = '/printinity-image.png',
   icons = '/favicon.ico',
   noIndex = false,
 }: {
@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@lotfiben95',
     },
     icons,
-    metadataBase: new URL('https://cosmimarket-production.up.railway.app'),
+    metadataBase: new URL('https://printinity.up.railway.app'),
     ...(noIndex && {
       robots: {
         index: false,
