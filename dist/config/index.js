@@ -3,50 +3,81 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.PRODUCT_CATEGORIES = void 0;
 exports.PRODUCT_CATEGORIES = [
     {
-        label: 'T-Shirt',
-        value: 'tshirt',
+        label: 'Vetements',
+        value: 'vetements',
         featured: [
             {
-                name: 'Nouveautés',
-                href: "/products?category=tshirt&sort=desc",
+                name: 'T-Shirt',
+                href: "/products?category=vetements&sort=desc",
                 imageSrc: '/categories/image.png',
             },
             {
-                name: 'Meilleures ventes',
-                href: "/products?category=tshirt",
-                imageSrc: '/categories/image-2.png',
+                name: 'Sweat-Shirt',
+                href: "/products?category=vetements&sort=desc",
+                imageSrc: '/categories/image-3.png',
+            },
+            {
+                name: 'Casquettes',
+                href: "/products?category=vetements",
+                imageSrc: '/categories/image-14.png',
             }
         ]
     },
     {
-        label: 'Sweat-shirt',
-        value: 'sweat',
+        label: 'Art',
+        value: 'art',
         featured: [
             {
-                name: 'Nouveautés',
-                href: "/products?category=sweat&sort=desc",
-                imageSrc: '/categories/image-5.png',
+                name: 'Tableaux',
+                href: "/products?category=art&sort=desc",
+                imageSrc: '/categories/image-9.png',
             },
             {
-                name: 'Meilleures ventes',
-                href: "/products?category=sweat",
-                imageSrc: '/categories/image-4.png',
+                name: 'Sculptures',
+                href: "/products?category=art",
+                imageSrc: '/categories/image-10.jpg',
+            },
+            {
+                name: 'Trophés',
+                href: "/products?category=art",
+                imageSrc: '/categories/image-12.jpeg',
             },
         ]
     },
     {
-        label: 'Votre modéle',
-        value: 'perso',
+        label: 'Brochures',
+        value: 'brochures',
         featured: [
             {
-                name: 'Nouveautés',
-                href: "/products?category=perso&sort=desc",
-                imageSrc: '/categories/image-3.png',
+                name: 'Flayers',
+                href: "/products?category=brochures&sort=desc",
+                imageSrc: '/categories/image-11.png',
             },
             {
-                name: 'Meilleures ventes',
-                href: "/products?category=perso",
-                imageSrc: '/categories/image-6.png',
+                name: 'Cartes visites',
+                href: "/products?category=brochures",
+                imageSrc: '/categories/image-12.png',
+            },
+            {
+                name: 'Fiches',
+                href: "/products?category=brochures",
+                imageSrc: '/categories/image-13.jpg',
+            },
+        ]
+    },
+    {
+        label: 'Cadeaux',
+        value: 'cadeaux',
+        featured: [
+            {
+                name: 'Porte-Cle',
+                href: "/products?category=cadeaux&sort=desc",
+                imageSrc: '/categories/image-10.png',
+            },
+            {
+                name: 'Chopes',
+                href: "/products?category=cadeaux",
+                imageSrc: '/categories/image-8.png',
             },
         ]
     },

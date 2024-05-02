@@ -51,7 +51,7 @@ export interface Product {
   name: string;
   description?: string | null;
   price: number;
-  category: 'tshirt' | 'sweat' | 'perso';
+  category: 'vetements' | 'art' | 'brochures' | 'cadeaux';
   product_files: string | ProductFile;
   approvedForSale?: ('pending' | 'approved' | 'denied') | null;
   priceId?: string | null;
