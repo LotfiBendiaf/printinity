@@ -6,7 +6,7 @@ export default function Icon() {
   return (
     <>
         <Image 
-    src='/Printinity-Icon.png'
+    src='/Printinity-Icon2.png'
     alt='PRINTINITY Main Icon'
     width={50}
     height={50}

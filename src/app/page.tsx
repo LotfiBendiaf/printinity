@@ -62,7 +62,7 @@ export default function Home() {
           <span className='text-primary'>
             propre style
           </span>
-          .
+          <span className='text-yellow-300'>.</span>
         </h1>
         <p className='mt-6 text-lg max-w-prose text-muted-foreground'>Bienvenue a PRINTINITY. chaque produit sur notre plateforme est vérifié par notre équipe pour assurer la meilleur qualité</p>
           <div className='flex flex-col sm:flex-row gap-4 mt-6'>

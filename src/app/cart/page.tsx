@@ -60,7 +60,7 @@ const Page = () => {
                   aria-hidden='true'
                   className='relative mb-4 h-40 w-40 text-muted-foreground'>
                   <Image
-                    src='/Printinity-Icon.png'
+                    src='/Printinity-Icon2.png'
                     fill
                     loading='eager'
                     alt='empty shopping cart PRINTINITY'

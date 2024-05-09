@@ -5,7 +5,6 @@ import Navbar from '@/components/Navbar'
 import Providers from '@/components/Providers'
 import { Toaster } from 'sonner'
 import Footer from '@/components/Footer'
-import NavAdds from '@/components/NavAdds'
 
 const inter = Inter({ subsets: ['latin'] })
 
